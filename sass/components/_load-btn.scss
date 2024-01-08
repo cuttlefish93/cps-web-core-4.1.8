@@ -1,0 +1,15 @@
+.load-btn {
+	font-weight: 500;
+	padding-left: 32px;
+	position: relative;
+
+	&::before {
+		content: '';
+		background-image: url('./../assets/images/icons/arrows-down.svg');
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		top: -4px;
+		left: 0;
+	}
+}
