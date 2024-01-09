@@ -1,1 +1,1 @@
-[CPS Landing Page - web core 3](https://cuttlefish93.github.io/cps-web-core-3.3.2/)
+[CPS Landing Page - web core 4](https://cuttlefish93.github.io/cps-web-core-4.1.8/)

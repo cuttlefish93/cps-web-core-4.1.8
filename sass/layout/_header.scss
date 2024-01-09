@@ -1,10 +1,10 @@
 .header {
 	height: 80px;
-	border-bottom: 1px solid $color-border-secondary;
 	padding: 0 16px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	@extend %section-border-bottom;
 
 	.link-round--phone {
 		display: none;
