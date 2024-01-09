@@ -1,15 +1,18 @@
 .load-btn {
 	font-weight: 500;
-	padding-left: 32px;
-	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	transition: all .3s ease-in;
+	transform: scale(1);
 
-	&::before {
-		content: '';
-		background-image: url('./../assets/images/icons/arrows-down.svg');
+	&:hover {
+		transform: scale(1.02);
+	}
+
+	&__icon {
+		background-image: url('./../assets/images/icons/arrow-down.svg');
 		width: 24px;
 		height: 24px;
-		position: absolute;
-		top: -4px;
-		left: 0;
 	}
 }

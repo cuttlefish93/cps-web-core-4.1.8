@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CPS - Home</title>
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -129,7 +130,7 @@
 
 				<div class="services__info">
 					<div class="services__desc">
-						<div class="services__text-wrapper">
+						<div class="services__text-wrapper" id='services-section'>
 							<p class="services__text">
 								Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
 								отремонтировать свой ноутбук Dell с официальной гарантией производителя.
@@ -150,15 +151,84 @@
 								очередь, советуют нас родным и близким.
 							</p>
 						</div>
-						<button class="services__load-btn load-btn">Читать далее</button>
+						<button class="services__load-btn load-btn" id='services'>
+							<span class="load-btn__icon"></span>
+							<span class="load-btn__text" data-default-text="Читать далее">Читать далее</span>
+						</button>
 					</div>
 					<img src="assets/images/bg.jpg" alt="CPS logo photo" class="services__bg">
 				</div>
 			</section>
+
+			<section class="brands">
+				<h2 class="section-title brands__title">Ремонт техники различных брендов</h2>
+
+				<div class="brands-slider" id='brands-section'>
+					<div class="brands-slider__wrapper">
+						<div class="brand-card">
+							<img src="./assets/images/lenovo-logo.png" alt="Lenovo logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/samsung-logo.png" alt="Samsung logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/apple-logo.png" alt="Apple logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/viewsonic-logo.png" alt="ViewSonic logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/bosch-logo.png" alt="Bosch logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/hp-logo.png" alt="HP logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/acer-logo.png" alt="Acer logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/sony-logo.svg" alt="Sony logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/lenovo-logo.png" alt="Lenovo logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+
+						<div class="brand-card">
+							<img src="./assets/images/samsung-logo.png" alt="Samsung logo" class="brand-card__img">
+							<a href="" class="link-round link-round--arrow-go"></a>
+						</div>
+					</div>
+					<div class="brands-slider__pagination"></div>
+				</div>
+
+				<button class="brands__load-btn load-btn" id='brands'>
+					<span class="load-btn__icon"></span>
+					<span class="load-btn__text" data-default-text='Показать все'>Показать все</span>
+				</button>
+			</section>
 		</main>
 	</div>
 
-	<div class="menu-bg active"></div>
+	<div class="menu-bg"></div>
+
+	<script src='./js/index.js' type='module'></script>
 </body>
 
 </html>

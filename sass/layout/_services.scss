@@ -1,7 +1,6 @@
 .services {
-	background-color: $color-bg-main;
 	padding: 24px 0;
-	border-bottom: 1px solid $color-border-secondary;
+	@extend %section-border-bottom;
 
 	&__header {
 		display: flex;

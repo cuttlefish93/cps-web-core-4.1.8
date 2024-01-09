@@ -19,6 +19,8 @@
 
 	&__main {
 		width: 100%;
+		min-height: 100vh;
+		background-color: $color-bg-main;
 	}
 
 	@include media($b-1200) {

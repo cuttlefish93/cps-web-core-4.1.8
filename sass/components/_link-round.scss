@@ -19,4 +19,12 @@
 	&--profile {
 		background-image: url('./../assets/images/icons/profile.svg');
 	}
+
+	&--arrow-go {
+		background-image: url('./../assets/images/icons/arrow-btn.svg');
+
+		&:hover {
+			opacity: 0.6;
+		}
+	}
 }
